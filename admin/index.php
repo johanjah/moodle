@@ -750,6 +750,8 @@ if (during_initial_install()) {
 
     if ($adminuser->password === 'adminsetuppending') {
         // prevent installation hijacking
+        print "remote : "+getremoteaddr();
+        print "admin last ip: "+ $adminuser->lastip;
         if ($adminuser->lastip !== getremoteaddr()) {
             print_error('installhijacked', 'admin');
         }
