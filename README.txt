@@ -4,6 +4,9 @@
   | |  _   _  |/  _  \/  _  \/  _  || |/  __ \
   * | | | | | || |_| || |_| || |_| || || |___/
     |_| |_| |_|\_____/\_____/\_____||_|\_____)
+    
+This forked Moodle version is DISABLING Feature "Install Hijacked".
+I'm installing this software in Redhat Openshift Cloud, that's feature is blocking my installation process.
 
 Moodle - the world's open source learning platform
 
