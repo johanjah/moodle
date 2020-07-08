@@ -19,10 +19,15 @@
 		"ext-gd": "*",
         "ext-intl": "*",
 		"ext-xmlrpc": "*",
-        "ext-soap": "*",
-	"process-timeout":0
+        "ext-soap": "*"
     },
 	"config": {
 		"process-timeout":0
+	},
+	"scripts": {
+		"test": [
+		    "Composer\\Config::disableProcessTimeout",
+		    "phpunit"
+		]
 	}
 }
