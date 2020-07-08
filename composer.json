@@ -16,9 +16,12 @@
         "moodlehq/behat-extension": "3.39.3",
         "mikey179/vfsstream": "^1.6",
         "instaclick/php-webdriver": "dev-local as 1.x-dev",
-        "ext-gd": "*",
+		"ext-gd": "*",
         "ext-intl": "*",
 		"ext-xmlrpc": "*",
         "ext-soap": "*"
-    }
+    },
+	"config": {
+		"process-timeout":0
+	}
 }
